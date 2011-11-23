@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  
+  
+  <TextView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Waiting for location..."
+    android:id="@+id/lblLocationInfo"/>
+  <!-- <1> -->
+  
+  <EditText android:id="@+id/etLongi"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="numberDecimal" android:hint="Longitude">
+
+  </EditText>
+  <EditText
+      android:id="@+id/etLati"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="numberDecimal" android:hint="Latitude">
+
+  </EditText>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+      
+  <EditText
+      android:id="@+id/etNome"
+      android:layout_width="207dp"
+      android:layout_height="wrap_content"
+      android:hint="Nome"
+      android:inputType="textPersonName" >
+
+  </EditText>
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Salvar" />
+
+  </LinearLayout>
+
+     
+
+  
+
+  <Spinner
+      android:id="@+id/spinner1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  
+	<com.google.android.maps.MapView
+	    android:id="@+id/mapView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:apiKey="0AV5_oNC1mVI_20kCe31wzqVxVmj7REDy_5DF3Q"
+	    android:clickable="true"
+	    android:enabled="true" />
+
+	 	<!-- <2> -->
+
+
+
+    
+</LinearLayout>
