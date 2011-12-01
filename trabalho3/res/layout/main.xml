@@ -11,20 +11,6 @@
     android:text="Waiting for location..."
     android:id="@+id/lblLocationInfo"/>
   <!-- <1> -->
-  
-  <EditText android:id="@+id/etLongi"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:inputType="numberDecimal" android:hint="Longitude">
-
-  </EditText>
-  <EditText
-      android:id="@+id/etLati"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:inputType="numberDecimal" android:hint="Latitude">
-
-  </EditText>
 
 	<LinearLayout
 	    android:id="@+id/linearLayout2"

@@ -12,16 +12,15 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int push_pin=0x7f020001;
     }
     public static final class id {
-        public static final int button1=0x7f050005;
-        public static final int etLati=0x7f050002;
-        public static final int etLongi=0x7f050001;
-        public static final int etNome=0x7f050004;
+        public static final int button1=0x7f050003;
+        public static final int etNome=0x7f050002;
         public static final int lblLocationInfo=0x7f050000;
-        public static final int linearLayout2=0x7f050003;
-        public static final int mapView=0x7f050007;
-        public static final int spinner1=0x7f050006;
+        public static final int linearLayout2=0x7f050001;
+        public static final int mapView=0x7f050005;
+        public static final int spinner1=0x7f050004;
     }
     public static final class layout {
         public static final int main=0x7f030000;
